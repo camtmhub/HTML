@@ -1,0 +1,54 @@
+<!-- Es una instrucción o declaración que se escribe solo una vez al principio, para que el navegador sepa qué versión de HTML es. -->
+<!DOCTYPE html>
+<!-- Envuelve todo el documento, desde la etiqueta de apertura (<html>) hasta su etiqueta de cierre (</html>). -->
+<html>
+
+<!-- Aunque esta etiqueta no se muestra en la página como contenido, contiene etiquetas cruciales para la funcionalidad del sitio. -->
+<head>
+
+    <!-- Se muestra en la pestaña del navegador y mejora el SEO. -->
+    <title>Introducción a HTML</title>
+    <!-- Permite representar muchos caracteres y símbolos especiales. -->
+    <meta charset="UTF-8">
+    <!-- Es un breve resumen de la página, mostrado en las búsquedas. -->
+    <meta name="description" content="Esta es una página para aprender HTML.">
+    <!-- Se usa comúnmente cuando se desean detalles sobre la autoría. -->
+    <meta name="author" content="Camilo Tuñón">
+    <!-- Define la visualización en diferentes dispositivos. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Permite enlazar CSS desde fuera de HTML. -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Permite enlazar un archivo JavaScript desde fuera. -->
+    <script src="script.js"></script>
+    <!-- Define la URL base para enlaces relativos, estableciendo una URL de referencia para direcciones de enlace incompletas. -->
+    <base href="http://www.example.com/">
+    <!-- Define el icono mostrado en la pestaña del navegador o lista de marcadores de la página web. -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Controla la compatibilidad con versiones antiguas de Internet Explorer, asegurando que se utilice el motor de renderizado más reciente. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Instruye a los motores de búsqueda sobre cómo indexar la página, permitiendo tanto la indexación como el seguimiento de enlaces en la página. -->
+    <meta name="robots" content="index, follow">
+    <!-- Especifica la URL canónica de la página para evitar contenido duplicado en los motores de búsqueda. -->
+    <link rel="canonical" href="canonical_URL">
+    <!-- Define estilos CSS directamente en el documento HTML, permitiendo la aplicación de estilos específicos a elementos particulares sin un archivo externo. -->
+    <style>
+        /* Tus estilos CSS van aquí */
+    </style>
+    <!-- Proporciona contenido alternativo si JavaScript está desactivado en el navegador del usuario. -->
+    <noscript>
+        <!-- Tu contenido alternativo va aquí -->
+    </noscript>
+    <!-- Redirige automáticamente a otra página después de un tiempo especificado (en este caso, 5 segundos). -->
+    <meta http-equiv="refresh" content="5;url=http://www.example.com/">
+    <!-- Especifica políticas de seguridad de contenido, controlando los recursos que pueden cargarse en la página. -->
+    <meta http-equiv="Content-Security-Policy" content="directives">
+    <!-- Define el color del tema en dispositivos móviles para la barra de navegación o la interfaz del sitio. -->
+    <meta name="theme-color" content="#color">
+    <!-- Controla la caché del navegador, indicando que el contenido de la página no debe almacenarse en caché. -->
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <!-- Indica que el contenido de la página ha caducado y no debe almacenarse en caché por el navegador. -->
+    <meta http-equiv="Expires" content="0">
+
+</head>
+
+</html>
